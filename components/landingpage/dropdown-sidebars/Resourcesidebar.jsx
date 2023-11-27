@@ -1,8 +1,11 @@
+import { dropdownLinks, sidekinks } from "@/components/common/helper";
+import { CrossIcon, Logo, RightarrowIcon } from "@/components/common/icons";
+import Link from "next/link";
 import React from "react";
 
-const Resourcesidebar = () => {
+const Resourcesidebar = ({ toggleResource }) => {
   return (
-    <div className="bg-fllopydisk flex flex-col justify-between h-[896px] pb-10 px-6">
+    <div className="bg-fllopydisk flex flex-col justify-between pb-10 px-6">
       <div className="flex flex-col gap-[48px]">
         <div className="py-4 flex justify-between items-center">
           <div>
@@ -12,7 +15,7 @@ const Resourcesidebar = () => {
             <button
               type="submit"
               className="hover:rotate-180 duration-500"
-              onClick={toggleNavbar}
+              onClick={toggleResource}
             >
               <CrossIcon />
             </button>

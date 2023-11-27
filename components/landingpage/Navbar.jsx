@@ -13,8 +13,8 @@ const Navbar = () => {
         open
       </button>
       <div
-        className={`absolute top-0 w-full ${
-          sidebar ? "left-0" : "left-[-150%]"
+        className={`absolute left-0 w-full duration-500 ${
+          sidebar ? "top-0" : "top-[-150%]"
         }`}
       >
         <Sidebar toggleNavbar={toggleNavbar} />
