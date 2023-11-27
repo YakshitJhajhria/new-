@@ -3,9 +3,9 @@ import Sidebar from "@/components/landingpage/Sidebar";
 
 export default function Home() {
   return (
-<>
-{/* <Navbar/> */}
-<Sidebar/>
-</>
-  )
+    <>
+      <Navbar />
+      {/* <Sidebar /> */}
+    </>
+  );
 }

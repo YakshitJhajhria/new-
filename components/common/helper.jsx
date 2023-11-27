@@ -1,34 +1,56 @@
-import { RightarrowIcon } from "./icons";
+import {
+  FacebookIcon,
+  GithubIcon,
+  LinkedinIcon,
+  RightarrowIcon,
+  SlackIcon,
+  XIcon,
+  YoutubeIcon,
+} from "./icons";
 
 export const sidekinks = [
   {
-    name: "About Us",
-    link: "",
-    icon: <RightarrowIcon />,
-  },
-  {
     name: "Latest Releases",
     link: "",
-    icon: "",
   },
   {
     name: "Marketplace",
     link: "",
-    icon: "",
   },
+];
+export const dropdownLinks = [
   {
     name: "Projects",
-    link: "",
     icon: <RightarrowIcon />,
   },
   {
     name: "Resources",
-    link: "",
     icon: <RightarrowIcon />,
   },
+];
+export const iconLinks = [
   {
-    name: "Community",
     link: "",
-    icon: <RightarrowIcon />,
+    icon: <FacebookIcon />,
+  },
+  {
+    link: "",
+    icon: <XIcon />,
+  },
+  {
+    link: "",
+    icon: <GithubIcon />,
+  },
+  {
+    link: "",
+    icon: <YoutubeIcon />,
+  },
+  {
+    link: "",
+    icon: <LinkedinIcon />,
+  },
+  {
+    link: "",
+    icon: <SlackIcon />,
   },
 ];
