@@ -13,7 +13,7 @@ const Navbar = () => {
         open
       </button>
       <div
-        className={`absolute left-0 w-full duration-500 ${
+        className={`absolute w-full left-0 duration-500 ${
           sidebar ? "top-0" : "top-[-150%]"
         }`}
       >

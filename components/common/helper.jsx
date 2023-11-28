@@ -54,3 +54,91 @@ export const iconLinks = [
     icon: <SlackIcon />,
   },
 ];
+export const aboutLinks = [
+  {
+    name: "What We Do",
+    link: "",
+  },
+  {
+    name: "Business Benefits",
+    link: "",
+  },
+  {
+    name: "Our Supporters",
+    link: "",
+  },
+  {
+    name: "Our Adopters",
+    link: "",
+  },
+  {
+    name: "Support Us",
+    link: "",
+  },
+];
+export const projectLinks = [
+  {
+    name: "What We Do",
+    link: "",
+  },
+  {
+    name: "Business Benefits",
+    link: "",
+  },
+  {
+    name: "Our Supporters",
+    link: "",
+  },
+  {
+    name: "Our Adopters",
+    link: "",
+  },
+  {
+    name: "Support Us",
+    link: "",
+  },
+];
+export const resourceLinks = [
+  {
+    name: "What We Do",
+    link: "",
+  },
+  {
+    name: "Business Benefits",
+    link: "",
+  },
+  {
+    name: "Our Supporters",
+    link: "",
+  },
+  {
+    name: "Our Adopters",
+    link: "",
+  },
+  {
+    name: "Support Us",
+    link: "",
+  },
+];
+export const comunityLinks = [
+  {
+    name: "What We Do",
+    link: "",
+  },
+  {
+    name: "Business Benefits",
+    link: "",
+  },
+  {
+    name: "Our Supporters",
+    link: "",
+  },
+  {
+    name: "Our Adopters",
+    link: "",
+  },
+  {
+    name: "Support Us",
+    link: "",
+  },
+];

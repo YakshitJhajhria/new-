@@ -48,7 +48,7 @@ const Sidebar = ({ toggleNavbar }) => {
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-6">
             <div className="flex justify-between items-center">
-              <p className="text-white text-[20px] fonr-normal leading-7 font-hankengrotesk hover:text-banafsajipurple duration-500 cursor-pointer">
+              <p className="text-white text-[20px] fonr-normal leading-7 font-hankengrotesk">
                 About Us
               </p>
               <div
@@ -80,7 +80,7 @@ const Sidebar = ({ toggleNavbar }) => {
             </div>
           ))}
           <div className="flex justify-between items-center">
-            <p className="text-white text-[20px] fonr-normal leading-7 font-hankengrotesk hover:text-banafsajipurple duration-500 cursor-pointer">
+            <p className="text-white text-[20px] fonr-normal leading-7 font-hankengrotesk">
               Projects
             </p>
             <div
@@ -91,14 +91,14 @@ const Sidebar = ({ toggleNavbar }) => {
               <Projectsidebar toggleProject={toggleProject} />
             </div>
             <div>
-              <button type="submit">
+              <button type="submit" onClick={toggleProject}>
                 <RightarrowIcon />
               </button>
             </div>
           </div>
           <div className="bg-naggarothnight w-full h-[1px]"></div>
           <div className="flex justify-between items-center">
-            <p className="text-white text-[20px] fonr-normal leading-7 font-hankengrotesk hover:text-banafsajipurple duration-500 cursor-pointer">
+            <p className="text-white text-[20px] fonr-normal leading-7 font-hankengrotesk">
               Resources
             </p>
             <div
@@ -109,14 +109,14 @@ const Sidebar = ({ toggleNavbar }) => {
               <Resourcesidebar toggleResource={toggleResource} />
             </div>
             <div>
-              <button type="submit">
+              <button type="submit" onClick={toggleResource}>
                 <RightarrowIcon />
               </button>
             </div>
           </div>
           <div className="bg-naggarothnight w-full h-[1px]"></div>
           <div className="flex justify-between items-center">
-            <p className="text-white text-[20px] fonr-normal leading-7 font-hankengrotesk hover:text-banafsajipurple duration-500 cursor-pointer">
+            <p className="text-white text-[20px] fonr-normal leading-7 font-hankengrotesk">
               Community
             </p>
             <div
@@ -127,7 +127,7 @@ const Sidebar = ({ toggleNavbar }) => {
               <Comunitysidebar toggleComunity={toggleComunity} />
             </div>
             <div>
-              <button type="submit">
+              <button type="submit" onClick={toggleComunity}>
                 <RightarrowIcon />
               </button>
             </div>
