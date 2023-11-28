@@ -109,8 +109,10 @@ export const RightarrowIcon = () => {
         height="20"
         viewBox="0 0 20 20"
         fill="none"
+        className="group-hover:stroke-burningfireflies duration-300"
       >
         <path
+          className="group-hover:stroke-burningfireflies duration-300"
           d="M7.5 15L12.5 10L7.5 5"
           stroke="white"
           stroke-width="1.5"
@@ -314,6 +316,50 @@ export const BackarrowIcon = () => {
         />
         <path
           d="M24 31L17 24L24 17"
+          stroke="white"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </>
+  );
+};
+export const MenuIcon = () => {
+  return (
+    <>
+      <svg
+        width="48"
+        height="48"
+        viewBox="0 0 48 48"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="1"
+          y="1"
+          width="46"
+          height="46"
+          rx="23"
+          stroke="#3E3355"
+          stroke-width="2"
+        />
+        <path
+          d="M15 24H33"
+          stroke="white"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M15 18H33"
+          stroke="white"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M15 30H33"
           stroke="white"
           stroke-width="1.5"
           stroke-linecap="round"

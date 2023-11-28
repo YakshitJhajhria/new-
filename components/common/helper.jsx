@@ -142,3 +142,75 @@ export const comunityLinks = [
     link: "",
   },
 ];
+export const aboutDropdownLinks = [
+  {
+    name: "What We Do",
+    link: "",
+  },
+  {
+    name: "Business Benefits",
+    link: "",
+  },
+  {
+    name: "Our Supporters",
+    link: "",
+  },
+  {
+    name: "Our Adopters",
+    link: "",
+  },
+];
+export const projectDropdownLinks = [
+  {
+    name: "What We Do",
+    link: "",
+  },
+  {
+    name: "Business Benefits",
+    link: "",
+  },
+  {
+    name: "Our Supporters",
+    link: "",
+  },
+  {
+    name: "Our Adopters",
+    link: "",
+  },
+];
+export const resourceDropdownLinks = [
+  {
+    name: "What We Do",
+    link: "",
+  },
+  {
+    name: "Business Benefits",
+    link: "",
+  },
+  {
+    name: "Our Supporters",
+    link: "",
+  },
+  {
+    name: "Our Adopters",
+    link: "",
+  },
+];
+export const comunityDropdownLinks = [
+  {
+    name: "What We Do",
+    link: "",
+  },
+  {
+    name: "Business Benefits",
+    link: "",
+  },
+  {
+    name: "Our Supporters",
+    link: "",
+  },
+  {
+    name: "Our Adopters",
+    link: "",
+  },
+];

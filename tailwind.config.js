@@ -17,6 +17,7 @@ module.exports = {
         naggarothnight: "#3E3355",
         banafsajipurple: "#A80D55",
         burningfireflies: "#FF1464",
+        blackhtun: "#0E002A",
       },
       fontFamily: {
         hankengrotesk: ["Hanken Grotesk", "sans-serif"],
