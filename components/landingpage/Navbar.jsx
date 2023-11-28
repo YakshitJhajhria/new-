@@ -15,13 +15,13 @@ const Navbar = () => {
     setSidebar(!sidebar);
   };
   return (
-    <div className="max-w-[1440px] w-full px-6 sm:px-[44px] xl:px-[88px] py-4 sm:py-6 lg:py-8 bg-black flex justify-between gap-3 items-center">
+    <div className="max-w-[1440px] w-full px-6 sm:px-[44px] xl:px-[88px] py-4 sm:py-6 lg:py-8 flex justify-between gap-6 items-center">
       <div className="w-[174px] h-[38px]">
         <Link href="">
           <Logo />
         </Link>
       </div>
-      <div className="max-w-776px w-full hidden lg:flex justify-between items-center gap-3 ">
+      <div className="max-w-[777px] w-full hidden lg:flex justify-between items-center mx-auto gap-3 ">
         <div>
           <AboutDropdown />
         </div>
@@ -51,17 +51,21 @@ const Navbar = () => {
           <ComunityDropdown />
         </div>
       </div>
-      <div>
+      <div className="flex justify-end gap-6 items-center">
         <button
           type="submit"
-          className="hidden md:block border-[2px]  border-r-burningfireflies/50 border-burningfireflies rounded-[80px] text-center w-[145px] h-[48px] text-white"
+          className="hidden md:block border-[2px]  border-r-burningfireflies/50 border-burningfireflies rounded-[80px] text-center w-[145px] h-[48px] text-white hover:bg-burningfireflies duration-700"
         >
           Contact Us
         </button>
+        <button
+          type="submit"
+          className="block lg:hidden"
+          onClick={toggleNavbar}
+        >
+          <MenuIcon />
+        </button>
       </div>
-      <button type="submit" className="block lg:hidden" onClick={toggleNavbar}>
-        <MenuIcon />
-      </button>
       <div
         className={`absolute w-full left-0 duration-500 ${
           sidebar ? "top-0" : "top-[-200%]"

@@ -1,6 +1,6 @@
 export const Logo = () => {
   return (
-    <>
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="174"
@@ -60,12 +60,12 @@ export const Logo = () => {
           </linearGradient>
         </defs>
       </svg>
-    </>
+    </div>
   );
 };
 export const CrossIcon = () => {
   return (
-    <>
+    <div>
       <svg
         width="48"
         height="48"
@@ -97,22 +97,20 @@ export const CrossIcon = () => {
           stroke-linejoin="round"
         />
       </svg>
-    </>
+    </div>
   );
 };
 export const RightarrowIcon = () => {
   return (
-    <>
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
         height="20"
         viewBox="0 0 20 20"
         fill="none"
-        className="group-hover:stroke-burningfireflies duration-300"
       >
         <path
-          className="group-hover:stroke-burningfireflies duration-300"
           d="M7.5 15L12.5 10L7.5 5"
           stroke="white"
           stroke-width="1.5"
@@ -120,12 +118,12 @@ export const RightarrowIcon = () => {
           stroke-linejoin="round"
         />
       </svg>
-    </>
+    </div>
   );
 };
 export const FacebookIcon = () => {
   return (
-    <>
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -147,12 +145,12 @@ export const FacebookIcon = () => {
           </clipPath>
         </defs>
       </svg>
-    </>
+    </div>
   );
 };
 export const XIcon = () => {
   return (
-    <>
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -167,12 +165,12 @@ export const XIcon = () => {
           fill="white"
         />
       </svg>
-    </>
+    </div>
   );
 };
 export const GithubIcon = () => {
   return (
-    <>
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -196,12 +194,12 @@ export const GithubIcon = () => {
           </clipPath>
         </defs>
       </svg>
-    </>
+    </div>
   );
 };
 export const YoutubeIcon = () => {
   return (
-    <>
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -216,12 +214,12 @@ export const YoutubeIcon = () => {
           fill="white"
         />
       </svg>
-    </>
+    </div>
   );
 };
 export const LinkedinIcon = () => {
   return (
-    <>
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -243,12 +241,12 @@ export const LinkedinIcon = () => {
           </clipPath>
         </defs>
       </svg>
-    </>
+    </div>
   );
 };
 export const SlackIcon = () => {
   return (
-    <>
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -285,12 +283,12 @@ export const SlackIcon = () => {
           </clipPath>
         </defs>
       </svg>
-    </>
+    </div>
   );
 };
 export const BackarrowIcon = () => {
   return (
-    <>
+    <div>
       <svg
         width="48"
         height="48"
@@ -322,12 +320,12 @@ export const BackarrowIcon = () => {
           stroke-linejoin="round"
         />
       </svg>
-    </>
+    </div>
   );
 };
 export const MenuIcon = () => {
   return (
-    <>
+    <div>
       <svg
         width="48"
         height="48"
@@ -366,6 +364,29 @@ export const MenuIcon = () => {
           stroke-linejoin="round"
         />
       </svg>
-    </>
+    </div>
+  );
+};
+export const DroparrowIcon = () => {
+  return (
+    <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        fill="none"
+        className="group-hover:stroke-burningfireflies duration-300"
+      >
+        <path
+          className="group-hover:stroke-burningfireflies duration-300"
+          d="M4.00146 6L8.00146 10L12.0015 6"
+          stroke="white"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
   );
 };

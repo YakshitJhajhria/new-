@@ -1,11 +1,9 @@
-import Navbar from "@/components/landingpage/Navbar";
-import Sidebar from "@/components/landingpage/Sidebar";
+import Hero from "@/components/landingpage/Hero";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      {/* <Sidebar /> */}
-    </>
+    <div>
+      <Hero />
+    </div>
   );
 }
