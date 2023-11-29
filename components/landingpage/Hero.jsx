@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="w-full bg-fllopydisk max-sm:relative sm:bg-[url('/img/hero-bg.png')] bg-origin-content bg-top bg-center bg-no-repeat">
+    <div className="w-full bg-fllopydisk max-sm:relative sm:bg-[url('/img/hero-bg.png')] bg-origin-content bg-top bg-no-repeat">
       <div className="flex justify-center">
         <div className="absolute top-[80px]">
           <Image
