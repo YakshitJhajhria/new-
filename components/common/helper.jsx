@@ -214,3 +214,99 @@ export const comunityDropdownLinks = [
     link: "",
   },
 ];
+export const eclipseFoundationLinks = [
+  {
+    name: "About Us",
+    link: "",
+  },
+  {
+    name: "Board of Directors",
+    link: "",
+  },
+  {
+    name: "Governance",
+    link: "",
+  },
+  {
+    name: "Donate",
+    link: "",
+  },
+  {
+    name: "Contact Us",
+    link: "",
+  },
+  {
+    name: "Members",
+    link: "",
+  },
+];
+export const usefulLinks = [
+  {
+    name: "Forums",
+    link: "",
+  },
+  {
+    name: "Marketplace",
+    link: "",
+  },
+  {
+    name: "Report a Bug",
+    link: "",
+  },
+  {
+    name: "API",
+    link: "",
+  },
+  {
+    name: "Mailing Lists",
+    link: "",
+  },
+  {
+    name: "Documentation",
+    link: "",
+  },
+];
+export const legalLinks = [
+  {
+    name: "Privacy Policy",
+    link: "",
+  },
+  {
+    name: "Terms of Use",
+    link: "",
+  },
+  {
+    name: "Copyright Agent",
+    link: "",
+  },
+  {
+    name: "Eclipse Public License",
+    link: "",
+  },
+  {
+    name: "Legal Resources",
+    link: "",
+  },
+];
+export const otherLinks = [
+  {
+    name: "Research@Eclipse",
+    link: "",
+  },
+  {
+    name: "IDE and Tools",
+    link: "",
+  },
+  {
+    name: "Working Groups",
+    link: "",
+  },
+  {
+    name: "Report a Vulnerability",
+    link: "",
+  },
+  {
+    name: "Projects",
+    link: "",
+  },
+];
