@@ -18,6 +18,8 @@ module.exports = {
         banafsajipurple: "#A80D55",
         burningfireflies: "#FF1464",
         blackhtun: "#0E002A",
+        lavendorboquet: "#C4BFCE",
+        nightlyactivities: "#3E3355",
       },
       fontFamily: {
         hankengrotesk: ["Hanken Grotesk", "sans-serif"],
