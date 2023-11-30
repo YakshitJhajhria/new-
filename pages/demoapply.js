@@ -1,10 +1,10 @@
-import Dropdown from "@/components/landingpage/footer-disclosures/Dropdown";
+import Footer from "@/components/landingpage/Footer";
 import React from "react";
 
 const Demoapply = () => {
   return (
     <div>
-      <Dropdown />
+      <Footer />
     </div>
   );
 };

@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Dropdown() {
   return (
-    <div className="w-full px-4 bg-fllopydisk h-auto py-3 flex flex-col gap-6">
+    <div className="w-full bg-fllopydisk h-auto flex flex-col gap-6">
       <div className="flex flex-col gap-6">
         <Disclosure>
           {({ open }) => (
