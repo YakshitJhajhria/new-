@@ -19,7 +19,9 @@ export default function Dropdown() {
                 <p className="text-white font-hankengrotesk text-[20px] leading-7 font-semibold">
                   Eclipse Foundation
                 </p>
-                {open ? <MinusIcon /> : <PlusIcon />}
+                <div className="duration-300">
+                  {open ? <MinusIcon /> : <PlusIcon />}
+                </div>
               </Disclosure.Button>
               <Disclosure.Panel className="pt-6">
                 <div className="flex flex-col gap-2 justify-center items-start">

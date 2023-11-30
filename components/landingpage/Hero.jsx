@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
       </div>
       <Navbar />
-      <div className="max-w-[832px] w-full mx-auto px-8 xl:p-0 flex flex-col gap-[40px]">
+      <div className="max-w-[832px] w-full mx-auto px-8 xl:p-0 flex flex-col gap-[40px] ">
         <div className="mt-11 text-center">
           <p className="text-white font-hankengrotesk text-[64px] leading-[72px] lg:text-[104px] font-semibold lg:leading-[120px]">
             The power of Eclipse Temurin™
