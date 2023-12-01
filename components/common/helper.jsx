@@ -1,4 +1,5 @@
 import {
+  DotIcon,
   FacebookIcon,
   GithubIcon,
   LinkedinIcon,
@@ -308,5 +309,28 @@ export const otherLinks = [
   {
     name: "Projects",
     link: "",
+  },
+];
+export const productCards = [
+  {
+    img: "/img/productsicon1.png",
+    icon: <DotIcon />,
+    ovrln: "Overline",
+    text: "Eclipse Temurin™",
+    btn: "Learn More",
+  },
+  {
+    img: "/img/productsicon2.png",
+    icon: <DotIcon />,
+    ovrln: "Overline",
+    text: "Eclipse AQAvit™",
+    btn: "Learn More",
+  },
+  {
+    img: "/img/productsicon3.png",
+    icon: <DotIcon />,
+    ovrln: "Overline",
+    text: "Eclipse Mission Control™",
+    btn: "Learn More",
   },
 ];
