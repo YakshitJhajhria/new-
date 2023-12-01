@@ -5,7 +5,7 @@ import React from "react";
 const Demoapply = () => {
   return (
     <>
-      <Products />
+      {/* <Products /> */}
       <Faq />
     </>
   );
