@@ -29,7 +29,7 @@ const Sidebar = ({ toggleNavbar }) => {
     setomunitySidebar(!comunitySidebar);
   };
   return (
-    <div className="bg-fllopydisk flex flex-col justify-between h-[896px] pb-10 px-6">
+    <div className="bg-fllopydisk flex flex-col justify-between h-full sticky top-0 pb-10 px-6">
       <div className="flex flex-col gap-[48px]">
         <div className="py-4 flex justify-between items-center">
           <div>
@@ -135,7 +135,7 @@ const Sidebar = ({ toggleNavbar }) => {
         </div>
       </div>
       <div className="flex flex-col gap-[48px]">
-        <div>
+        <div className="mt-[192px]">
           <button
             type="submit"
             className="text-center rounded-[80px] bg-burningfireflies flex justify-center items-center py-4 px-8 max-w-[366px] w-full h-[56px] mx-auto text-white text-[16px] font-hankengrotesk font-bold leading-6 hover:bg-white hover:text-burningfireflies border border-burningfireflies duration-300"
