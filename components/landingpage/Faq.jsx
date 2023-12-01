@@ -1,8 +1,9 @@
 import React from "react";
+import Faqdisclosure from "./Faqdisclosure";
 
 const Faq = () => {
   return (
-    <div className="bg-fllopydisk px-6 xl:px-0 py-8 sm:py-16">
+    <div className="bg-fllopydisk px-6 xl:px-3 py-8 sm:py-16">
       <div className="max-w-[1264px] w-full mx-auto flex flex-col lg:flex-row items-center lg:justify-between gap-6">
         <div className="p-8 sm:p-10 backdrop-blur-md rounded-[24px] border border-nightlyactivities bg-[var(--tones-white-5,rgba(255,255,255,0.05))] flex flex-col justify-between max-w-[420px] w-full h-[552px]">
           <div className="flex flex-col gap-6">
@@ -36,7 +37,9 @@ const Faq = () => {
             </div>
           </div>
         </div>
-        <div></div>
+        <div className="max-w-[780px] w-full">
+          <Faqdisclosure />
+        </div>
       </div>
     </div>
   );
