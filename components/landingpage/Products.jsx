@@ -47,12 +47,14 @@ const Products = () => {
                   </div>
                 </div>
                 <div>
-                  <button
-                    type="submit"
-                    className="rounded-[80px] text-white font-hankengrotesk font-bold text-[16px] leading-6 px-8 py-3 border-[2px] border-burningfireflies border-r-burningfireflies/50 hover:bg-burningfireflies duration-300"
-                  >
-                    {items.btn}
-                  </button>
+                  <div className="rounded-[80px] p-[2px] bg-gradient-to-r from-burningfireflies hover:bg-burningfireflies group duration-300">
+                    <button
+                      type="submit"
+                      className="rounded-[80px] text-white font-hankengrotesk font-bold text-[16px] leading-6 px-8 py-3 bg-fllopydisk group-hover:bg-burningfireflies duration-300"
+                    >
+                      {items.btn}
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
     setSidebar(!sidebar);
   };
   return (
-    <div className="max-w-[1440px] w-full px-6 sm:px-[44px] xl:px-[88px] py-4 sm:py-6 lg:py-8 flex justify-between gap-6 items-center">
+    <div className="max-w-[1440px] w-full px-6 xl:px-[88px] py-4 sm:py-6 lg:py-8 flex justify-between gap-6 items-center">
       <div className="w-[174px] h-[38px]">
         <Link href="">
           <Logo />
@@ -52,12 +52,14 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex justify-end gap-6 items-center">
-        <button
-          type="submit"
-          className="hidden md:block border-[2px]  border-r-burningfireflies/50 border-burningfireflies rounded-[80px] text-center w-[145px] h-[48px] text-white hover:bg-burningfireflies duration-700"
-        >
-          Contact Us
-        </button>
+        <div className="rounded-[80px] p-[2px] bg-gradient-to-r from-burningfireflies hover:bg-burningfireflies group duration-300 hidden sm:block">
+          <button
+            type="submit"
+            className="rounded-[80px] text-white font-hankengrotesk font-bold text-[16px] leading-6 w-[145px] h-[48px] text-center bg-fllopydisk group-hover:bg-burningfireflies duration-300"
+          >
+            Contact Us
+          </button>
+        </div>
         <button
           type="submit"
           className="block lg:hidden"
